@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--mybatis输出日志-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.skd.domain"/>
+    </typeAliases>
+
+
+    <!--用这个包加载有两点要求
+        1.mapper文件名称和dao接口名称必须完全一样，包括大小写
+        2.mapper文件和dao接口必须在同一目录
+    -->
+    <mappers>
+        <package name="com.skd.dao"/>
+    </mappers>
+</configuration>

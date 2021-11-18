@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skd.dao.SalaryDao">
+
+    <insert id="insertSalary">
+        insert into salarydata(name,allowance,salary) values(#{name},#{allowance},#{salary})
+    </insert>
+    <select id="selectSalary" resultType="com.skd.domain.SalaryData">
+        select * from salarydata
+    </select>
+    <update id="updateSalary">
+        update salarydata set allowance=#{allowance},salary=#{salary} where name=#{name}
+    </update>
+    <delete id="deleteSalary">
+        delete from salarydata where name =#{name}
+    </delete>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skd.dao.totalInfoDao">
+
+<select id="querryAllInfo" resultType="com.skd.domain.Information">
+    SELECT
+        employment.*,
+        duty.attend_day,
+        duty.attend_rate,
+        salarydata.allowance,
+        salarydata.salary
+
+    FROM
+        (( employment LEFT JOIN duty ON employment.name = duty.name ) LEFT JOIN salarydata ON employment.name = salarydata.name )
+</select>
+</mapper>

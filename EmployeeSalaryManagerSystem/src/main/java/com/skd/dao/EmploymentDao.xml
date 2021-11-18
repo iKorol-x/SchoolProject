@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skd.dao.EmploymentDao">
+    <insert id="insertEmployment">
+        insert into employment(name,age,basesalary,workyear) values(#{name},#{age},#{basesalary},#{workyear})
+    </insert>
+
+    <select id="selectEmployment" resultType="com.skd.domain.Employment">
+        select id,name,age,basesalary,workyear from employment
+    </select>
+
+    <update id="updateEmployment">
+        update employment set age=#{age},basesalary=#{basesalary},workyear=#{workyear} where name=#{name};
+    </update>
+
+    <delete id="deleteEmployment">
+        delete from employment where name = #{name}
+    </delete>
+
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skd.dao.DutyDao">
+
+<select id="selectDuty" resultType="com.skd.domain.Duty">
+    select * from duty;
+</select>
+    <update id="updateDuty">
+        update duty set attend_day=#{attend_day},attend_rate=#{attend_rate} where name=#{name};
+    </update>
+    <delete id="deleteDuty">
+        delete from duty where name = #{name}
+    </delete>
+    <insert id="insertDuty">
+        insert into duty(name,attend_day,attend_rate) values(#{name},#{attend_day},#{attend_rate})
+    </insert>
+</mapper>
