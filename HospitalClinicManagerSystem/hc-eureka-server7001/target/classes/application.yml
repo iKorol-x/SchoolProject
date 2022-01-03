@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: eureka7001.com #eureka服务器实例名称
+
+  client:
+    register-with-eureka: false #false表示不向注册中心注册自己
+    fetch-registry: false #false表示自己就是注册中心，职责就是维护服务实例，不需要检索
+    service-url:
+      # eureka单机版
+      defaultZone: http://eureka7001.com:7001/eureka/
+#  server:
+#    enable-self-preservation: false   #关闭Eureka自我保护机制
+#    eviction-interval-timer-in-ms: 2000 #2s没有收到心跳包就删除这个服务

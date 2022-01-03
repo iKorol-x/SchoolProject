@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0d4f7a8-10d1-49d3-9ece-d7bee95059c5" name="Default Changelist" comment="2022.2.3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mcl" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1e6175c2-e7e4-44cc-8d2f-6118f4866919" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MarvenInstall\repository" />
+        <option name="mavenHome" value="E:/MarvenInstall/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\MarvenInstall\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="234jZoDq6vYMM6Ksrt8cXjWe0iJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12360942" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\HcProject\HospitalClinicManagerSystem\hc-provider-student8003\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.skd.hc.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerMain7001">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoctorMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-provider-doctor8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.DoctorMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.EurekaServerMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicineMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-provider-medicine8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.MedicineMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-consumer-order81" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.OrderMain81" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-provider-register8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.RegisterMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMain8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hc-provider-student8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skd.hc.StudentMain8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DoctorMain8002" />
+      <item itemvalue="Spring Boot.EurekaServerMain7001" />
+      <item itemvalue="Spring Boot.MedicineMain8001" />
+      <item itemvalue="Spring Boot.OrderMain81" />
+      <item itemvalue="Spring Boot.RegisterMain8004" />
+      <item itemvalue="Spring Boot.StudentMain8003" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d4f7a8-10d1-49d3-9ece-d7bee95059c5" name="Default Changelist" comment="" />
+      <created>1641000312784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641000312784</updated>
+      <workItem from="1641000314362" duration="4686000" />
+      <workItem from="1641049696076" duration="3730000" />
+      <workItem from="1641096134557" duration="1543000" />
+      <workItem from="1641097712035" duration="453000" />
+      <workItem from="1641098281865" duration="1348000" />
+      <workItem from="1641207068716" duration="4573000" />
+      <workItem from="1641218823061" duration="402000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改了一些消费端配置：OpenFeign的负载均衡，还有一些小的重构">
+      <created>1641098565603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641098565603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改了一些消费端配置：OpenFeign的负载均衡，还有一些小的重构">
+      <created>1641098802939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641098802939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了一些消费端配置：OpenFeign的负载均衡，还有一些小的重构">
+      <created>1641098831186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641098831186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2022.2">
+      <created>1641099458878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641099458878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改了一些消费端配置：OpenFeign的负载均衡，还有一些小的重构" />
+    <MESSAGE value="2022.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.2" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: hc-student-server
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbcloud?useUnicode=true&characterEncoding=utf-8
+    username: mcl
+    password: DNF321
+
+eureka:
+  client:
+    register-with-eureka: true  #表示将自己注册进eurekaServer
+    fetch-registry: true  #是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，但是集群必须设置为true才能配合ribbon使用负载均衡
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: student8003 #设置主机名
+    prefer-ip-address: true #显示ip地址
